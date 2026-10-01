@@ -6,11 +6,8 @@ readme = "README.md"
 authors = [
     { name = "Davide Marcucci", email = "davide.marcucci@pm.me" }
 ]
-requires-python = ">=3.14.5"
+requires-python = ">=3.14"
 dependencies = []
-
-[project.scripts]
-comanda = "comanda:main"
 
 [build-system]
 requires = ["uv_build>=0.12.21,<0.13.0"]
@@ -40,4 +37,4 @@ select = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-ra --strict-markers"
+addopts = "-ra --strict-markers --import-mode=importlib"
