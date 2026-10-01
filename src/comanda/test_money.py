@@ -8,5 +8,5 @@ def test_euro_arrotondamento():
 
 
 def test_float_error():
-    assert 0.1 + 0.2 != 0.3  # Dimostrazione dell'errore di arrotondamento dei float
-    assert euro(0.1) + euro(0.2) == euro(0.3)
+    assert 0.1 + 0.2 != 0.3
+    assert euro("0.1") + euro("0.2") == euro("0.3")

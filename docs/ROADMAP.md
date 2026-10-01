@@ -73,4 +73,4 @@ Profiling, caching avanzato, rate limiting, autenticazione (sessioni vs JWT), OW
 
 | Lezione | Data | Argomento | Fatto |
 |---|---|---|---|
-| 00 | | Toolchain | ☐ |
+| 00 | 01/10/2026 | Toolchain | V |
